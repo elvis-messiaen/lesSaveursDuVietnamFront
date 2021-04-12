@@ -16,7 +16,7 @@
     "formik": "^2.2.6",
     "history": "^5.0.0",
     "mdb-ui-kit": "^3.4.0",
-    "mdbreact": "^5.0.2",
+    "mdbreact": "^4.6.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.13.1",
