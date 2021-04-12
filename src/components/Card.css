@@ -1,0 +1,4 @@
+.div-card{
+    position: sticky !important;
+    z-index: 999 !important;
+}
