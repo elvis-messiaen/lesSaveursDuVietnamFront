@@ -44,7 +44,6 @@ const Navbar = () => {
   const logOut = () => {
     dispatch(logout());
   };
-
   return (
     <BrowserRouter history={history}>
       <div>
@@ -102,7 +101,6 @@ const Navbar = () => {
                   </a>
               </li>
             </div>
-
           ) : (
               <div className="navbar-nav ml-auto">
                 <li className="nav-item">
