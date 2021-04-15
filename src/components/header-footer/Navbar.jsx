@@ -21,6 +21,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import Card from "../Card";
 import Sidebar from "./Sidebar";
+import Adresse from '../donneePersonnel/Adresse';
 
 
 const Navbar = () => {
@@ -48,7 +49,6 @@ const Navbar = () => {
     <BrowserRouter history={history}>
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark  fixed-top w-100 ">
-          {<Sidebar/>}
           <Link to={"/"} className="navbar-brand">
             Les saveurs du vietnam
             </Link>
@@ -128,6 +128,8 @@ const Navbar = () => {
             <Route path="/user" component={BoardUser} />
             <Route path="/admin" component={BoardAdmin} />
             <Route path="/product " component={Card} />
+            <Route path="adresse " component={Adresse} />
+            {/* <Route path="/panier " component={Panier} /> */}
           </Switch>
         </div>
       </div>
