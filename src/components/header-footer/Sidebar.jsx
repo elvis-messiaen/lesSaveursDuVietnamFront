@@ -19,8 +19,6 @@ import { URL_ADRESSE, URL_HOME, URL_PANIER } from '../../urls/urlConstants';
 
 const Sidebar = () => {
   const [menuCollapse, setMenuCollapse] = useState(false)
-
-
   const menuIconClick = () => {
     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true)
   }
