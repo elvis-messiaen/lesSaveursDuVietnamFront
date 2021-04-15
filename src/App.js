@@ -1,19 +1,21 @@
 import React, { Fragment } from "react";
 import Adresse from "./components/donneePersonnel/Adresse";
 import Navbar from "./components/header-footer/Navbar";
-import SideMenu from './components/SideMenu';
+import Sidebar from "./components/header-footer/Sidebar";
 
 
 const App = (loadCategory) => {
-  return(
+  return (
     <Fragment>
-      {/* {<Navbar/>} */}
+      <Sidebar />
+      <Navbar />
+
       <div className="container-fluid">
-      <SideMenu loadCategory={loadCategory}/>
-      <Adresse/>
+        {/* {<SideMenu loadCategory={loadCategory}/>} */}
+        {/* {<Adresse/>} */}
       </div>
     </Fragment>
-      )  
+  )
 };
 
 export default App;
